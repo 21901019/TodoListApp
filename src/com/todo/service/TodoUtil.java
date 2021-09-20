@@ -59,6 +59,7 @@ public class TodoUtil {
 
 		System.out.print("새 제목 > ");
 		String new_title = sc.next().trim();
+		sc.nextLine();
 		if (l.isDuplicate(new_title)) {
 			System.out.println("제목이 중복됩니다!");
 			return;
