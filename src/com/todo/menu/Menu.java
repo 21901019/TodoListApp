@@ -12,7 +12,7 @@ public class Menu {
         System.out.println("ls_name_asc - 제목순 정렬");
         System.out.println("ls_name_desc - 제목역순 정렬");
         System.out.println("ls_date - 날짜순 정렬");
-        System.out.println("ls_date_desc - 날짜순 정렬");
+        System.out.println("ls_date_desc - 날짜역순 정렬");
         System.out.println("find <키워드> - 키워드 찾기");
         System.out.println("find_cate <키워드> - 카테고리에서 키워드 찾기");
         System.out.println("exit - 종료");
