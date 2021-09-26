@@ -27,7 +27,6 @@ public class TodoItem {
         this.current_date= f.format(new Date());
 		this.category = category;
 		this.due_date = due_date;
-		this.due_date = current_date;
 	}
 	/*public TodoItem(String title, String desc){
         this.title=title;

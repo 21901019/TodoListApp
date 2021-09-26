@@ -72,7 +72,7 @@ public class TodoMain {
 				
 			case "find_cate":
 				String key_cate = sc.next();
-				TodoUtil.find(l, key_cate);
+				TodoUtil.find_cate(l, key_cate);
 				break;
 				
 			case "ls_cate":
