@@ -9,6 +9,7 @@ public class TodoItem {
     private String current_date;
     private String category;
     private String due_date;
+    private int id;
  
 	public TodoItem(String title, String desc, String category, String due_date) {
 		super();
@@ -28,6 +29,7 @@ public class TodoItem {
 		this.category = category;
 		this.due_date = due_date;
 	}
+
 	/*public TodoItem(String title, String desc){
         this.title=title;
         this.desc=desc;
@@ -82,7 +84,14 @@ public class TodoItem {
     
     @Override
 	public String toString() {
-		return "["+category+"] " + title + " - " + desc + " - "+ due_date + " - "+current_date;
+		return id+" ["+category+"] " + title + " - " + desc + " - "+ due_date + " - "+current_date;
+	}
+	public void setId(int id) {
+		this.id = id;
+		
+	}
+	public int getId() {
+		return id;
 	}
 
 }
